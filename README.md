@@ -39,7 +39,6 @@ My main purpose is to explore how satisfied patients are with their hospitals in
 - **Blogger's Example Entry（Data Wizardry):**  
 441314 | Lauderdale Community Hospital | 10/1/2020 | 12/31/2020 | 25
 
-- **Note:** 
 ### My Dataset
 Since the original HCAHPS dataset used in the tutorial was no longer available, I used the **2023 CMS Hospital Provider Cost Report** instead.  
 The structure of my dataset is similar (hospital-level with CCN, name, fiscal year, and bed counts), but the actual content and formatting differ from the blogger’s sample. This substitution ensures reproducibility while demonstrating adaptability in sourcing reliable alternative data.
