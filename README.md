@@ -31,7 +31,7 @@ This ensures the project remains reproducible and demonstrates adaptability when
   - Fiscal Year Begin Date  
   - Fiscal Year End Date  
   - Number of Beds  
-- ** Blogger's Example Entry（Data Wizardry):**  
+- **Blogger's Example Entry（Data Wizardry):**  
 441314 | Lauderdale Community Hospital | 10/1/2020 | 12/31/2020 | 25
 
 - **Note:** 
