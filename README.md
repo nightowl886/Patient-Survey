@@ -22,6 +22,9 @@ My main purpose is to explore how satisfied patients are with their hospitals in
 
 ## 📂 Dataset
 
+### 1. Patient Survey(HCAHPS) - Hospital
+- **Source:** [Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS)](https://data.cms.gov/provider-data/dataset/dgck-syfz)  
+- **Description:** A list of hospital ratings for the Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS). HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.
 
 
 ### 2. Hospital Beds
