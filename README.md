@@ -68,7 +68,7 @@ By applying these cleaning steps, the dataset could be successfully imported int
 ## 🛠️ Tools & Technologies
 - **SQL** → Data cleaning & transformation (handling fiscal year ranges, aggregating bed counts).  
 - **Tableau** → Dashboard creation & visualization.  
-- **Excel/CSV** → Initial dataset exploration.  
+- **Excel/CSV/Numbers** → Initial dataset exploration.  
 
 ---
 
