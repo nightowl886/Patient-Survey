@@ -24,11 +24,11 @@ My goal is to explore patient satisfaction with hospitals in the United States. 
 
 ## My Dataset
 
-In the original tutorial, the blogger had already adjusted the raw HCAHPS & HCRIS dataset and published a curated subset online.  
+In the original tutorial, the YouTuber had already adjusted the raw HCAHPS & HCRIS dataset and published a curated subset online.  
 Since that subset is no longer accessible, I sourced the **HCRIS** & **HCAHPS** directly from the official source.  
 
-Unlike the blogger’s pre-processed sample, I worked with the raw dataset and performed my own cleaning and restructuring steps.  
-This approach ensures reproducibility and demonstrates adaptability when original resources are unavailable, while still aligning with the tutorial’s analytical goals.
+Unlike the YouTuber’s pre-processed sample, I worked with the raw dataset and performed my own cleaning and restructuring steps.  
+This approach ensures reproducibility and demonstrates adaptability when original resources are unattainable, while still aligning with the tutorial’s analytical goals.
 
 
 
@@ -54,7 +54,7 @@ This approach ensures reproducibility and demonstrates adaptability when origina
 ## 🧹 Dataset cleaning 
 Before importing the dataset into PostgreSQL, I performed several cleaning steps to ensure compatibility and accuracy:
 
-**File preparation with Excel**  
+**Data Exploration with Excel**  
 I used Excel to process the dataset directly:  
   - Removed irrelevant columns not required for the analysis to keep the schema consistent with the project design.
   - Applied **Find & Replace** to substitute entries such as `Not Available` or `Not Applicable` with empty cells (`NULL`), ensuring proper data types and preventing import errors in PostgreSQL.  
