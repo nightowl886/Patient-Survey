@@ -54,8 +54,8 @@ This approach ensures reproducibility and demonstrates adaptability when origina
 ## 🧹 Dataset cleaning 
 Before importing the dataset into PostgreSQL, I performed several cleaning steps to ensure compatibility and accuracy:
 
-**File preparation with Apple Numbers**  
-I used **Apple Numbers** to process the dataset directly:  
+**File preparation with Excel**  
+I used Excel to process the dataset directly:  
   - Removed irrelevant columns not required for the analysis to keep the schema consistent with the project design.
   - Applied **Find & Replace** to substitute entries such as `Not Available` or `Not Applicable` with empty cells (`NULL`), ensuring proper data types and preventing import errors in PostgreSQL.  
   - Exported the cleaned file back to **CSV (UTF‑8)** format.  
@@ -66,9 +66,9 @@ By applying these cleaning steps, the dataset could be successfully imported int
 ---
 
 ## 🛠️ Tools & Technologies
-- **SQL** → Data cleaning & transformation (handling fiscal year ranges, aggregating bed counts).  
+- **Postgres** → Data cleaning & transformation (handling fiscal year ranges, aggregating bed counts).  
 - **Tableau** → Dashboard creation & visualization.  
-- **Excel/CSV/Numbers** → Initial dataset exploration.  
+- **Excel** → Initial dataset exploration.  
 
 ---
 
