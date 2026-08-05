@@ -66,9 +66,9 @@ By applying these cleaning steps, the dataset could be successfully imported int
 ---
 
 ## 🛠️ Tools & Technologies
-- **Postgres** → Data cleaning & transformation (handling fiscal year ranges, aggregating bed counts).  
-- **Tableau** → Dashboard creation & visualization.  
 - **Excel** → Initial dataset exploration.  
+- **Postgres** → Data cleaning & transformation.  
+- **Tableau** → Dashboard creation & visualization.  
 
 ---
 
@@ -100,5 +100,5 @@ By applying these cleaning steps, the dataset could be successfully imported int
 This project demonstrates adaptability: when the original dataset was unavailable, I identified and used a reliable alternative (CMS HCRIS).  
 It highlights problem-solving skills and resourcefulness in data projects.
 
-
+https://data.cms.gov/provider-data/dataset/dgck-syfz
 https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data
