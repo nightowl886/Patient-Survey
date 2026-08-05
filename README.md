@@ -20,18 +20,9 @@ My main purpose is to explore how satisfied patients are with their hospitals in
 
 ---
 
-## 🧹 Dataset cleaning 
-
-Before importing the dataset into PostgreSQL, I performed several cleaning steps to ensure compatibility and accuracy:
-
-**File preparation with Apple Numbers**  
-I used **Apple Numbers** to process the dataset directly:  
-  - Removed irrelevant columns not required for the analysis to keep the schema consistent with the project design.
-  - Applied **Find & Replace** to substitute entries such as `Not Available` or `Not Applicable` with empty cells (`NULL`), ensuring proper data types and preventing import errors in PostgreSQL.  
-  - Exported the cleaned file back to **CSV (UTF‑8)** format.  
-
-By applying these cleaning steps, the dataset could be successfully imported into PostgreSQL without errors, and the analysis remained reproducible.
-
+### My Dataset
+Since the original HCAHPS dataset used in the tutorial was no longer available, I used the **2023 CMS Hospital Provider Cost Report** instead.  
+The structure of my dataset is similar (hospital-level with CCN, name, fiscal year, and bed counts), but the actual content and formatting differ from the blogger’s sample. This substitution ensures reproducibility while demonstrating adaptability in sourcing reliable alternative data.
 
 
 ### 1. Patient Survey(HCAHPS) - Hospital
@@ -51,10 +42,17 @@ By applying these cleaning steps, the dataset could be successfully imported int
 - **Example Entry:**  
 441314 | Lauderdale Community Hospital | 10/1/2020 | 12/31/2020 | 25
 
-### My Dataset
-Since the original HCAHPS dataset used in the tutorial was no longer available, I used the **2023 CMS Hospital Provider Cost Report** instead.  
-The structure of my dataset is similar (hospital-level with CCN, name, fiscal year, and bed counts), but the actual content and formatting differ from the blogger’s sample. This substitution ensures reproducibility while demonstrating adaptability in sourcing reliable alternative data.
+---
+## 🧹 Dataset cleaning 
+Before importing the dataset into PostgreSQL, I performed several cleaning steps to ensure compatibility and accuracy:
 
+**File preparation with Apple Numbers**  
+I used **Apple Numbers** to process the dataset directly:  
+  - Removed irrelevant columns not required for the analysis to keep the schema consistent with the project design.
+  - Applied **Find & Replace** to substitute entries such as `Not Available` or `Not Applicable` with empty cells (`NULL`), ensuring proper data types and preventing import errors in PostgreSQL.  
+  - Exported the cleaned file back to **CSV (UTF‑8)** format.  
+
+By applying these cleaning steps, the dataset could be successfully imported into PostgreSQL without errors, and the analysis remained reproducible.
 
 
 ---
