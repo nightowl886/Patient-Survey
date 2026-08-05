@@ -5,9 +5,10 @@
 
 This project is inspired by a tutorial from **Data Wizardry**.  
 
-Since the original dataset download link used in the tutorial is no longer available, I sourced official datasets directly from **CMS Hospital Cost Report (HCRIS)** and the **HCAHPS dataset** to begin the analysis.  
+Since the original dataset download link used in the tutorial is no longer available, I sourced official datasets directly from **CMS Hospital Cost Report (HCRIS)** and the **HCAHPS dataset** .  
 
-My main purpose is to explore how satisfied patients are with their hospitals in the United States. By leveraging these reliable public sources, the project remains reproducible and highlights adaptability when facing unavailable resources.
+
+My goal is to explore patient satisfaction with hospitals in the United States. By leveraging these reliable public sources, the project remains reproducible and demonstrates adaptability when facing unavailable resources.
 
 
 ---
@@ -20,9 +21,10 @@ My main purpose is to explore how satisfied patients are with their hospitals in
 
 ---
 
-### My Dataset
+
+## My Dataset
 Since the original HCAHPS dataset used in the tutorial was no longer available, I used the **2023 CMS Hospital Provider Cost Report** instead.  
-The structure of my dataset is similar (hospital-level with CCN, name, fiscal year, and bed counts), but the actual content and formatting differ from the blogger’s sample. This substitution ensures reproducibility while demonstrating adaptability in sourcing reliable alternative data.
+The structure of my dataset is similar, but the actual content and formatting differ from the blogger’s sample. This substitution ensures reproducibility while demonstrating adaptability in sourcing reliable alternative data.
 
 
 ### 1. Patient Survey(HCAHPS) - Hospital
