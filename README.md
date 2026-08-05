@@ -20,7 +20,19 @@ My main purpose is to explore how satisfied patients are with their hospitals in
 
 ---
 
-## 📂 Dataset cleaning project
+## 🧹 Dataset cleaning 
+
+Before importing the dataset into PostgreSQL, I performed several cleaning steps to ensure compatibility and accuracy:
+
+- **File preparation with Apple Numbers**  
+  I used **Apple Numbers** to process the dataset directly:  
+  - Removed irrelevant columns not required for the analysis to keep the schema consistent with the project design.
+  - Applied **Find & Replace** to substitute entries such as `Not Available` or `Not Applicable` with empty cells (`NULL`), ensuring proper data types and preventing import errors in PostgreSQL.  
+  - Exported the cleaned file back to **CSV (UTF‑8)** format.  
+
+By applying these cleaning steps, the dataset could be successfully imported into PostgreSQL without errors, and the analysis remained reproducible.
+
+
 
 ### 1. Patient Survey(HCAHPS) - Hospital
 - **Source:** [Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS)](https://data.cms.gov/provider-data/dataset/dgck-syfz)  
