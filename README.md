@@ -1,14 +1,12 @@
 # Patient-Survey
 
 
-## 📖 Project Inspiration
+## 📖 Project Inspiration & Overview
 
-This project is inspired by a tutorial from **Data Wizardry**.  
+This project is inspired by a tutorial from **Data Wizardry**.   This project integrates Hospital Bed Capacity Data with HCAHPS Patient Satisfaction Survey Results. After cleaning and transformation, it produces a consolidated dataset optimized for Tableau visualization. The dataset enables analysis of hospital resource allocation alongside patient experience.
 
 Since the original dataset download link used in the tutorial is no longer available, I sourced official datasets directly from **2023 CMS Hospital Cost Report (HCRIS)** and the **Hospital Consumer Assessment of Healthcare Providers and Systems(HCAHPS) dataset**.  
-
-
-My goal is to explore patient satisfaction with hospitals in the United States. By leveraging these reliable public sources, the project remains reproducible and demonstrates adaptability when facing unavailable resources.
+By leveraging these reliable public sources, the project remains reproducible and demonstrates adaptability when facing unavailable resources.
 
 
 ---
@@ -22,7 +20,18 @@ My goal is to explore patient satisfaction with hospitals in the United States. 
 ---
 
 
-## My Dataset
+## Key Features
+
+-Data Cleaning: Standardizes hospital identifiers (provider_ccn) and converts date fields into consistent formats.
+
+-Latest Record Selection: Uses the row_number() window function to extract the most recent bed count for each hospital.
+
+-Data Integration: Merges HCAHPS survey data with hospital bed data by hospital ID, ensuring all patient satisfaction records are preserved.
+
+-Visualization Ready: Outputs a table Tableau_File that can be directly used in Tableau for analysis and dashboards.
+
+---
+## Data Sources
 
 In the original tutorial, the YouTuber had already adjusted the raw HCAHPS & HCRIS dataset and published a curated subset online.  
 Since that subset is no longer accessible, I sourced the **HCRIS** & **HCAHPS** directly from the official source.  
@@ -102,3 +111,12 @@ It highlights problem-solving skills and resourcefulness in data projects.
 
 https://data.cms.gov/provider-data/dataset/dgck-syfz
 https://data.cms.gov/provider-compliance/cost-reports/hospital-provider-cost-report/data
+
+
+## Future Improvements
+
+- Add more hospital metrics (e.g., financial data, quality of care indicators)
+
+- Automate data update workflows
+
+- Expand integration to additional healthcare datasets
