@@ -14,6 +14,12 @@ select  lpad(cast(provider_ccn as text),6,'0') as provider_ccn,
 from "freewitch"."Hospital_Data".hospital_beds
 )
 
+
+select *
+from hospital_beds_prep
+order by provider_ccn
+
+	
 	
 select provider_ccn, count(*) as count_of_rows
 
