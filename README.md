@@ -42,7 +42,7 @@ This approach ensures reproducibility and demonstrates adaptability when origina
 
 
 
-### 1. Patient Survey(HCAHPS) - Hospital
+### 1. Patient Survey(HCAHPS) - HCAHPS data
 - **Source:** [Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS)](https://data.cms.gov/provider-data/dataset/dgck-syfz)  
 - **Description:** A list of hospital ratings for the Hospital Consumer Assessment of Healthcare Providers and Systems (HCAHPS). HCAHPS is a national, standardized survey of hospital patients about their experiences during a recent inpatient hospital stay.
 
