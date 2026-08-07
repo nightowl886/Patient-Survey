@@ -22,13 +22,13 @@ By leveraging these reliable public sources, the project remains reproducible an
 
 ## Key Features
 
--Data Cleaning: Standardizes hospital identifiers (provider_ccn) and converts date fields into consistent formats.
+- Data Cleaning: Standardizes hospital identifiers (provider_ccn) and converts date fields into consistent formats.
 
--Latest Record Selection: Uses the row_number() window function to extract the most recent bed count for each hospital.
+- Latest Record Selection: Uses the row_number() window function to extract the most recent bed count for each hospital.
 
--Data Integration: Merges HCAHPS survey data with hospital bed data by hospital ID, ensuring all patient satisfaction records are preserved.
+- Data Integration: Merges HCAHPS survey data with hospital bed data by hospital ID, ensuring all patient satisfaction records are preserved.
 
--Visualization Ready: Outputs a table Tableau_File that can be directly used in Tableau for analysis and dashboards.
+- Visualization Ready: Outputs a table Tableau_File that can be directly used in Tableau for analysis and dashboards.
 
 ---
 ## Data Sources
