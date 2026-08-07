@@ -82,13 +82,27 @@ By applying these cleaning steps, the dataset could be successfully imported int
 ---
 
 ## 📊 Analysis Workflow
-1. Import the CMS Hospital Cost Report dataset.  
-2. Clean and standardize fiscal year date formats.  
-3. Aggregate hospital bed counts by year and provider.  
-4. Create Tableau dashboards to visualize:  
-   - Total beds by hospital  
-   - Trends in hospital capacity over time  
-   - Geographic distribution of hospital beds  
+
+1. Standardize Identifiers & Dates
+- Convert hospital IDs (provider_ccn, facility_id) to 6‑digit text.
+- Convert all date fields using TO_DATE().
+
+2. Prepare Hospital Beds Data
+- Select key fields (ID, bed count, fiscal year dates).
+- Use ROW_NUMBER() to identify the latest bed record per hospital.
+
+3. Prepare HCAHPS Data
+- Standardize hospital ID format.
+- Convert survey start/end dates.
+- Keep all HCAHPS metrics.
+
+4. Integrate Both Datasets
+- LEFT JOIN HCAHPS with the latest bed record.
+- Add bed count and reporting period fields.
+
+5. Create Tableau‑Ready Output
+- Save final merged dataset as Hospital_Data.Tableau_File.
+ 
 
 ---
 
