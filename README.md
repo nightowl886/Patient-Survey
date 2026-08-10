@@ -83,25 +83,26 @@ By applying these cleaning steps, the dataset could be successfully imported int
 
 ## 📊 Analysis Workflow
 
-1. Standardize Identifiers & Dates
+### 1. Standardize Identifiers & Dates
 - Convert hospital IDs (provider_ccn, facility_id) to 6‑digit text.
 - Convert all date fields using TO_DATE().
 
-2. Prepare Hospital Beds Data
+### 2. Prepare Hospital Beds Data
 - Select key fields (ID, bed count, fiscal year dates).
 - Use ROW_NUMBER() to identify the latest bed record per hospital.
 
-3. Prepare HCAHPS Data
+### 3. Prepare HCAHPS Data
 - Standardize hospital ID format.
 - Convert survey start/end dates.
 - Keep all HCAHPS metrics.
 
-4. Integrate Both Datasets
+### 4. Integrate Both Datasets
 - LEFT JOIN HCAHPS with the latest bed record.
 - Add bed count and reporting period fields.
 
-5. Create Tableau‑Ready Output
-- Save final merged dataset as Hospital_Data.Tableau_File.
+### 5. Create Tableau Dashboard
+
+https://public.tableau.com/app/profile/meghan.wang/viz/HCAHPSPatientSatisfactionScores_17863228078340/HCAHPADashboard
  
 
 ---
