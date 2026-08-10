@@ -12,10 +12,10 @@ By leveraging these reliable public sources, the project remains reproducible an
 ---
 
 ## 🎯 Objectives
-- Explore hospital capacity across the United States.
-- Analyze the distribution of hospital beds by provider and fiscal year.
-- Build interactive Tableau dashboards to visualize hospital capacity trends.
+- Explore patient satisfaction rating scores across the United States.
 - Showcase SQL and Tableau skills in handling healthcare datasets.
+- Build interactive Tableau dashboards to visualize hospital capacity trends based on state and hospital size.
+- Compare hospital response rates against cohort averages using fixed dimensions and Delta analysis.
 
 ---
 
@@ -101,6 +101,8 @@ By applying these cleaning steps, the dataset could be successfully imported int
 - Add bed count and reporting period fields.
 
 ### 5. Create Tableau Dashboard
+- Cohort-Based HCAHPS Analysis
+  This analysis defines cohorts by State × Hospital Size × HCAHPS Answer Description, computes their mean response rate, and uses Delta to measure each hospital’s performance relative to its cohort.
 
 https://public.tableau.com/app/profile/meghan.wang/viz/HCAHPSPatientSatisfactionScores_17863228078340/HCAHPADashboard
  
