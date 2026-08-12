@@ -104,8 +104,7 @@ By applying these cleaning steps, the dataset could be successfully imported int
 - Cohort-Based HCAHPS Analysis
   This analysis defines cohorts by State × Hospital Size × HCAHPS Answer Description, computes their mean response rate, and uses Delta to measure each hospital’s performance relative to its cohort.
 
-https://public.tableau.com/app/profile/meghan.wang/viz/HCAHPSPatientSatisfactionScores_17863228078340/HCAHPADashboard
- 
+https://public.tableau.com/app/profile/meghan.wang/viz/HospitalSurvey_17865462469090/HCAHPADashboard?publish=yes 
 
 ---
 
